@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:weightSum="2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+
+        >
+       <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgstudent"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_profile"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFF"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+           android:gravity="center"
+            android:layout_weight="1"
+               >
+            <TextView
+                android:id="@+id/std_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vivke Kumar Yadav"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+            <TextView
+                android:id="@+id/std_cls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class : Nursery"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+            <TextView
+                android:id="@+id/std_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID : 1001"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_header_container"
+        android:layout_marginTop="15dp" />
+
+
+</RelativeLayout>

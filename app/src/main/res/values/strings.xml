@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">School App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Technokeys Pvt Ltd</string>
+
+    <string name="prompt_email">Login Id</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+
+
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Attendance</item>
+        <item>Circular</item>
+        <item>HomeWork</item>
+        <item>Calender</item>
+        <item>Remark</item>
+        <item>Result</item>
+        <item>Fee</item>
+        <item>Transport</item>
+        <item>Communication</item>
+        <item>Library</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <string-array name="teacher_array">
+
+        <item>Home</item>
+        <item>Teacher Profile</item>
+        <item>Student Detail classwise</item>
+        <item>Transport</item>
+        <item>Student Fee</item>
+        <item>Log Out</item>
+
+
+    </string-array>
+
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_today_attendance">Today Attendance</string>
+    <string name="title_monthly">Attendance</string>
+    <string name="title_fees">Fee Details</string>
+    <string name="title_result">Result</string>
+    <string name="title_transport">Transport</string>
+    <string name="title_assignment">Assignment</string>
+    <string name="title_event">Event</string>
+    <string name="tit_bott"> <u> Powered by Technokeys</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
